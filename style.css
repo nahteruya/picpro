@@ -1,0 +1,322 @@
+/* Definição cor do background */
+body {
+    background-color: #4a8864;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 150px;
+}
+
+/* Estilização do header */
+.cabecalho {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.cabecalho .container {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho figure img {
+    width: 100%;
+    max-width: 140px;
+}
+
+.cabecalho .logoPicPro {
+    border-right: 1px solid #fff;
+    margin-right: 15px;
+}
+
+/* Estilização da parte do usuário */
+.contaUsuario {
+    color: #fff;
+    padding: 60px 0 30px;
+}
+
+.detalhes_contaUsuario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 30px;
+}
+
+.usuario_iconeUsername {
+    display: flex;
+}
+
+.usuario_iconeUsername p{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.usuario_iconeUsername p strong {
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.usuario_iconeUsername img {
+    width: 100%;
+    max-width: 60px;
+}
+
+.icones_presenteChat {
+    display: flex;
+}
+
+.icones_presenteChat figure img{
+    width: 100%;
+    max-width: 40px;
+    cursor: pointer;
+}
+
+.icones_presenteChat .icone_presente {
+    margin-right: 60px;
+}
+
+/* Estilização da parte do saldo */
+.detalhes_saldoUsuario {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.saldo p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.saldo p strong{
+    display: block;
+    font-weight: bold;
+}
+
+.saldo img{
+    display: flex;
+    width: 100%;
+    max-width: 20px;
+}
+
+.detalhes_saldoUsuario button{
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Estilização da parte dos tipos de cobrança */
+.detalhes_opcoesTransacoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detalhes_opcoesTransacoes li{
+    background-color: #1F6F54;
+    width: 170px;
+    height: 177px;
+    border-radius: 20px;
+    padding: 40px 20px;
+    cursor: pointer;
+}
+
+.detalhes_opcoesTransacoes li img{
+    width: 100%;
+    max-width: 40px;
+}
+
+.detalhes_opcoesTransacoes li p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 30px;
+    width: 80px;
+}
+
+/* Estilização da parte de transação */
+.transacao {
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 15px solid #F4F4F4; 
+    padding: 30px 0;
+}
+
+.transacao .container div{
+    display: none;
+}
+
+.transacao .container div.mostrar {
+    display: block;
+}
+
+.transacao_selecao p{
+    font-size: 25px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    padding: 30px 60px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.transacao_selecao img {
+    width: 100%;
+    margin: 30px 0;
+}
+
+
+/* Estilização da parte do QR Code */
+.transacao_qrCode {
+    text-align: center;
+}
+
+.transacao_qrCode img {
+    max-width: 180pix;
+}
+
+.transacao_qrCode p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 50px;
+}
+
+.transacao_qrCode button{
+    background-color: #1F6F54;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 50px 0 20 px;
+    padding: 15px 150px;
+    cursor: pointer;
+}
+
+.transacao_qrCode a{
+    display: block;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Estilização da parte do Pix */
+.transacao_pix img{
+    width: 100;
+    max-width: 200px;
+}
+
+.transacao_pixOpcoes {
+    display: flex;
+    align-items: center;
+    border: 1px solid #D2D2D2;
+    max-width: 500px;
+    padding: 14px 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    margin: 20px 0;
+}
+
+.transacao_pixOpcoes img{
+    width: 100%;
+    max-width: 60px;
+    margin-right: 10px;
+} 
+
+.transacao_pixOpcoes p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* Estilização da parte do boleto */
+.transacao_boleto img{
+    width: 100%;
+    max-width: 80px;
+}
+
+.transacao_boleto h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.transacao_boleto p{
+    font-size: 18px;
+    max-width: 500px;
+    line-height: 22px;
+    margin: 30px 0;
+}
+
+.transacao_boleto input {
+    width: 100%;
+    background-color: #F4F4F4;
+    font-size: 16px;
+    height: 60px;
+    padding: 0 80px;
+    border-radius: 10px;
+    border: 1px solid #D2D2D2;
+    color: #000; 
+    box-sizing: border-box;
+}
+
+/* Estilização da parte de cobrar */
+.transacao_cobrar img{
+    width: 100%;
+    max-width: 80px;
+}
+
+.transacao_cobrar h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.transacao_cobrar p{
+    font-size: 18px;
+    max-width: 500px;
+    line-height: 22px;
+    margin: 30px 0;
+}
+
+.transacao_cobrar .transacao_pixOpcoes p{
+    margin-left: 10px;
+}
+
+/* Estilização do footer */
+.rodape{
+    background-color: #fff;
+}
+
+.rodape_opcoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape_opcoes li{
+    text-align: center;
+}
+
+.rodape_opcoes li a{
+    color: #000;
+    text-decoration: none;
+}
+
+.rodape_opcoes li a img{
+    width: 100%;
+    max-width: 40px;
+}
+
+.rodape_opcoes li a p{
+    margin-top: 20px;
+}
+
+.rodape_opcaoPagar{
+    transform: translateY(-20px);
+}
+
+.rodape_opcoes .rodape_opcaoPagar a img{
+    max-width: 80px;
+}
